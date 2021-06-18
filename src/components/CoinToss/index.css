@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  width: 35%;
+  padding: 30px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  background-color: white;
+  padding: 10%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 24px;
+  font-weight: 700;
+}
+.description {
+  color: #334155;
+  font-size: 17px;
+  font-weight: 600;
+}
+.toss-image {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+.toss-button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 15px;
+  font-weight: 600;
+  height: 35px;
+  padding: 10;
+  border-radius: 8px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+.toss-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.toss-description {
+  font-size: 15px;
+  font-weight: 600;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    width: 80%;
+  }
+  .toss-details {
+    flex-direction: row;
+  }
+  .toss-description {
+    padding: 10px;
+  }
+}
